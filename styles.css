@@ -1,0 +1,155 @@
+
+.row {
+  text-align: center;
+    background-image: url(images/lamborghinirim2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 900px;
+    align-items: center;
+    text-align: center;
+}
+
+.everything {
+  text-align: center;
+}
+
+p {
+  letter-spacing: 1em;
+  font-family: sans-serif;
+  font-size: 2.3ex;
+
+  font: outline;
+  text-align: center;
+}
+
+.rim {
+  transition: transform .2s; /* Animation */
+ 
+}
+
+.rim:hover {
+  transform: scale(.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.links {
+    /* border: 1px solid red; */
+    width: 100%;
+    align-content: center;
+
+}
+
+
+
+a:hover {
+    color: rgb(255, 94, 0);
+}
+
+a {
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.3ex;
+    font-style: normal;
+    color: black;
+}
+
+
+.dropup-content a {
+  max-width: 186px;
+  min-height: 65px;
+  color: rgb(87, 87, 87, 0.5);
+
+  text-decoration: none;
+  display: block;
+  /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.menu {
+    text-align: center;
+
+}
+.dropup:hover .dropbtn {
+  margin-top: 15px;
+  text-align: center;
+  padding: -5px;
+  margin: -5px;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: rgb(155, 155, 155);
+  width: 186px;
+  height: 55px;
+  color: rgb(219, 219, 219);
+  
+}
+
+.dropbtn {
+    width: 90px;
+    max-width: 186px;
+    padding: -5px;
+    margin: -5px;
+    min-width: 186px;
+    min-height: 60px;
+    background-color: rgb(129, 129, 129);
+    color: rgb(201, 201, 201);
+    text-align: center;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropup {
+  
+    position: relative;
+    display: inline-block;
+ 
+  }
+  
+  .dropup-content {
+    content: inherit;
+    align-content: justify;
+    text-align: inherit;
+    margin: -5px;
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 180px;
+    bottom: 50px;
+    min-height: 80px;
+    max-width: 150px;
+  
+  }
+
+  
+  .dropup-content a:hover {
+      background-color: transparent;
+  
+}
+
+  .dropup:hover .dropup-content {
+    
+    min-width: 180px;
+    margin-bottom: 5px;
+    display: block;
+    /* border: 2px solid rgb(207, 159, 96); */
+    /* box-shadow: 
+            inset 0 -3em 3em rgba(61,61,61,0.1), 
+                  0.3em 0.3em 1em rgba(172, 172, 172, 0.3); */
+  } 
+  
+
+  
+/*   
+  .dropup:hover .dropbtn img{ 
+    margin: -5px;
+    min-width: 100%;
+    min-height: 100%;
+    vertical-align: middle;
+} */
+
+.hr1 {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(219, 219, 219, 0), rgb(197, 197, 197), rgba(221, 221, 221, 0));
+    }
