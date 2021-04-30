@@ -5,8 +5,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-color: rgb(255, 255, 255);
-      height: 500px;
-      width: 900px;
+
       align-items: center;
       text-align: center;
   }
@@ -63,6 +62,7 @@
   
     text-decoration: none;
     display: block;
+    
     /* border: 1px solid rgb(255, 255, 255); */
   }
   
